@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "Lecture 2.html",
+    "href": "Lecture 2.html",
+    "title": "Lecture 2",
+    "section": "",
+    "text": "是否提交你的IRB？老师那边是否有任何回应？"
+  },
+  {
+    "objectID": "Lecture 2.html#irb-update",
+    "href": "Lecture 2.html#irb-update",
+    "title": "Lecture 2",
+    "section": "",
+    "text": "是否提交你的IRB？老师那边是否有任何回应？"
+  },
+  {
+    "objectID": "Lecture 2.html#interview-themes",
+    "href": "Lecture 2.html#interview-themes",
+    "title": "Lecture 2",
+    "section": "Interview Themes",
+    "text": "Interview Themes\n五个方面关于在英国的体验（包容度，安全，经济情况），3个问题future plan.\n要不要限定一下你的采访对象（screening criteria):\n\n必须是中国学生，\n他们要有读研究生的打算\nUK vs. Singapore, Hongkong and Mainland China (Chinese culture which offers postgraduate Course taught in English)\n\n\nAcademic and Career Factor\n\nWhat are differences between UK and Asian educational system?\nWhat aspects of the UK/Asian education system are attracting you to pursue a master’s degree here?\nDo you believe that the academic achievement in the UK/Asia will influence your career destination, why?\n(if so, do you think this master degree will boost the chance of getting a job here)?\n(if not, why you still choose a place that is not consistent with your career destination)?\n\n\n\nSecurity Concern Factor\n\nAre there any special safety concerns facilitate your choice to study in one place over another?\nDo the security management on campus can override your concern of the safety issues in the society?\nDo you have higher sense of safety security in your home country rather than the UK？\nHave you expereinced any safety issues when you were studying in the UK?\n(If so,) Do you believe this experience determine your final choice in postgraduate school?\n(if not,) Why this does not prevent you from determining to study here?\n\n\n\nFinancial Factor\n\nWhat are the financial aspect(transportation, rental issues, tuition fee and exchange rate) in your decision to pursue a master’s degree in the UK versus Asia?\nHave you compared the tuition fees and living expenses between the UK and - Asian countries? What are your findings?\nAre scholarships or financial aid opportunities influencing your choice of location for postgraduate studies?\nDoes the potential return (successful rate of gaining the degree, job opportunity after graduation and whether the future salary can offset the cost of pursuing this degree)on investment from a UK master’s degree justify the higher costs for you? Why or why not?\n\n\n\nCultural and Social Factor\n\nAre cultural or social factors in either the UK or Asia pushing you away from studying there? (if students confess some issues in Asia, you might ask whether it is the study pressure)\nHave you experienced any racism in the UK?\n(If so) Will this influence your final decsion to stay or go to Asia, why?\nHave you gained a sense of integration in the UK? – (If so) does this affect your decision to stay? –(if not) does integration influence your decision to go back to Asia?\nAre global events (e.g., political climate, pandemics) acting as push or pull factors in your decision? Why?"
+  },
+  {
+    "objectID": "Untitled.html",
+    "href": "Untitled.html",
+    "title": "Lecture",
+    "section": "",
+    "text": "getwd()\n\n[1] \"/Users/apple/Downloads/Lecture 2\""
+  },
+  {
+    "objectID": "Untitled.html#quarto",
+    "href": "Untitled.html#quarto",
+    "title": "Lecture",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "Untitled.html#running-code",
+    "href": "Untitled.html#running-code",
+    "title": "Lecture",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "Lecture 2.html#push-and-pull-factors",
+    "href": "Lecture 2.html#push-and-pull-factors",
+    "title": "Lecture 2",
+    "section": "Push and Pull Factors",
+    "text": "Push and Pull Factors\n\nPull Factors\n\nWhat aspects of the UK education system are attracting you to pursue a master’s degree here?\nHow does the prospect of being closer to family and friends in Asia pull you toward returning home for your master’s?\nAre financial incentives, such as scholarships or lower tuition fees in Asia, pulling you toward studying there?\nIn what ways do safety measures and perceptions in Asia make it an attractive option for your postgraduate studies?\nHow do career opportunities in the UK influence your decision to stay for further education? ### Comparative Questions\nWhen comparing the UK and Asia, which push factors are most significant in influencing your decision?\nWhich pull factors are more compelling to you: those associated with the UK or with Asia? Why?\nHow do cultural experiences and lifestyle preferences push or pull you between the UK and Asia for your master’s studies?\nAre global events (e.g., political climate, pandemics) acting as push or pull factors in your decision? How so?"
+  }
+]

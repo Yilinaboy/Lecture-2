@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Lecture 2"
+  navbar:
+    left:
+      - href: Lecture 2.qmd
+        text: Home
+      - Lecture 2.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
