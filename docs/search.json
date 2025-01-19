@@ -2,9 +2,9 @@
   {
     "objectID": "Lecture 2.html",
     "href": "Lecture 2.html",
-    "title": "Lecture 2",
+    "title": "Qualitative Analysis of Interview Transcripts",
     "section": "",
-    "text": "是否提交你的IRB？老师那边是否有任何回应？"
+    "text": "In this section, we will perform the analysis of the interview transcripts, including word frequency analysis, sentiment analysis, and topic modeling.\n\n\nFirst, we preprocess the text and perform word frequency analysis to identify the most frequent terms across the transcripts."
   },
   {
     "objectID": "Lecture 2.html#irb-update",
@@ -47,5 +47,12 @@
     "title": "Lecture 2",
     "section": "Push and Pull Factors",
     "text": "Push and Pull Factors\n\nPull Factors\n\nWhat aspects of the UK education system are attracting you to pursue a master’s degree here?\nHow does the prospect of being closer to family and friends in Asia pull you toward returning home for your master’s?\nAre financial incentives, such as scholarships or lower tuition fees in Asia, pulling you toward studying there?\nIn what ways do safety measures and perceptions in Asia make it an attractive option for your postgraduate studies?\nHow do career opportunities in the UK influence your decision to stay for further education? ### Comparative Questions\nWhen comparing the UK and Asia, which push factors are most significant in influencing your decision?\nWhich pull factors are more compelling to you: those associated with the UK or with Asia? Why?\nHow do cultural experiences and lifestyle preferences push or pull you between the UK and Asia for your master’s studies?\nAre global events (e.g., political climate, pandemics) acting as push or pull factors in your decision? How so?"
+  },
+  {
+    "objectID": "Lecture 2.html#analysis",
+    "href": "Lecture 2.html#analysis",
+    "title": "Qualitative Analysis of Interview Transcripts",
+    "section": "",
+    "text": "In this section, we will perform the analysis of the interview transcripts, including word frequency analysis, sentiment analysis, and topic modeling.\n\n\nFirst, we preprocess the text and perform word frequency analysis to identify the most frequent terms across the transcripts."
   }
 ]

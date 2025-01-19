@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-11-17">
 
-<title>Lecture 2</title>
+<title>Qualitative Analysis of Interview Transcripts – Lecture 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Lecture 2.html"> 
-<span class="menu-text">Lecture 2</span></a>
+<span class="menu-text">Qualitative Analysis of Interview Transcripts</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -113,14 +112,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#irb-update" id="toc-irb-update" class="nav-link active" data-scroll-target="#irb-update">IRB update?</a></li>
-  <li><a href="#interview-themes" id="toc-interview-themes" class="nav-link" data-scroll-target="#interview-themes">Interview Themes</a>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link active" data-scroll-target="#analysis">1. Analysis</a>
   <ul class="collapse">
-  <li><a href="#academic-and-career-factor" id="toc-academic-and-career-factor" class="nav-link" data-scroll-target="#academic-and-career-factor">Academic and Career Factor</a></li>
-  <li><a href="#security-concern-factor" id="toc-security-concern-factor" class="nav-link" data-scroll-target="#security-concern-factor">Security Concern Factor</a></li>
-  <li><a href="#financial-factor" id="toc-financial-factor" class="nav-link" data-scroll-target="#financial-factor">Financial Factor</a></li>
-  <li><a href="#cultural-and-social-factor" id="toc-cultural-and-social-factor" class="nav-link" data-scroll-target="#cultural-and-social-factor">Cultural and Social Factor</a></li>
+  <li><a href="#word-frequency-analysis" id="toc-word-frequency-analysis" class="nav-link" data-scroll-target="#word-frequency-analysis">1.1 Word Frequency Analysis</a></li>
   </ul></li>
+  <li><a href="#load-necessary-libraries" id="toc-load-necessary-libraries" class="nav-link" data-scroll-target="#load-necessary-libraries">Load necessary libraries</a></li>
+  <li><a href="#load-transcripts-replace-with-actual-file-paths" id="toc-load-transcripts-replace-with-actual-file-paths" class="nav-link" data-scroll-target="#load-transcripts-replace-with-actual-file-paths">Load transcripts (replace with actual file paths)</a></li>
+  <li><a href="#combine-the-two-transcripts" id="toc-combine-the-two-transcripts" class="nav-link" data-scroll-target="#combine-the-two-transcripts">Combine the two transcripts</a></li>
+  <li><a href="#preprocess-the-text-data" id="toc-preprocess-the-text-data" class="nav-link" data-scroll-target="#preprocess-the-text-data">Preprocess the text data</a></li>
+  <li><a href="#create-a-document-term-matrix" id="toc-create-a-document-term-matrix" class="nav-link" data-scroll-target="#create-a-document-term-matrix">Create a document-term matrix</a></li>
+  <li><a href="#convert-to-a-data-frame-and-sort-by-frequency" id="toc-convert-to-a-data-frame-and-sort-by-frequency" class="nav-link" data-scroll-target="#convert-to-a-data-frame-and-sort-by-frequency">Convert to a data frame and sort by frequency</a></li>
   </ul>
 </nav>
     </div>
@@ -129,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lecture 2</h1>
+<h1 class="title">Qualitative Analysis of Interview Transcripts</h1>
 </div>
 
 
@@ -137,12 +138,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 17, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -152,61 +147,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="irb-update" class="level2">
-<h2 class="anchored" data-anchor-id="irb-update">IRB update?</h2>
-<p>是否提交你的IRB？老师那边是否有任何回应？</p>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">1. Analysis</h2>
+<p>In this section, we will perform the analysis of the interview transcripts, including word frequency analysis, sentiment analysis, and topic modeling.</p>
+<section id="word-frequency-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="word-frequency-analysis">1.1 Word Frequency Analysis</h3>
+<p>First, we preprocess the text and perform word frequency analysis to identify the most frequent terms across the transcripts.</p>
 </section>
-<section id="interview-themes" class="level2">
-<h2 class="anchored" data-anchor-id="interview-themes">Interview Themes</h2>
-<p>五个方面关于在英国的体验（包容度，安全，经济情况），3个问题future plan.</p>
-<p>要不要限定一下你的采访对象（screening criteria):</p>
-<ul>
-<li>必须是中国学生，</li>
-<li>他们要有读研究生的打算</li>
-<li>UK vs.&nbsp;Singapore, Hongkong and Mainland China (Chinese culture which offers postgraduate Course taught in English)</li>
-</ul>
-<section id="academic-and-career-factor" class="level3">
-<h3 class="anchored" data-anchor-id="academic-and-career-factor">Academic and Career Factor</h3>
-<ul>
-<li>What are differences between UK and Asian educational system?</li>
-<li>What aspects of the UK/Asian education system are attracting you to pursue a master’s degree here?</li>
-<li>Do you believe that the academic achievement in the UK/Asia will influence your career destination, why?</li>
-<li>(if so, do you think this master degree will boost the chance of getting a job here)?</li>
-<li>(if not, why you still choose a place that is not consistent with your career destination)?</li>
-</ul>
 </section>
-<section id="security-concern-factor" class="level3">
-<h3 class="anchored" data-anchor-id="security-concern-factor">Security Concern Factor</h3>
-<ul>
-<li>Are there any special safety concerns facilitate your choice to study in one place over another?</li>
-<li>Do the security management on campus can override your concern of the safety issues in the society?</li>
-<li>Do you have higher sense of safety security in your home country rather than the UK？</li>
-<li>Have you expereinced any safety issues when you were studying in the UK?</li>
-<li>(If so,) Do you believe this experience determine your final choice in postgraduate school?</li>
-<li>(if not,) Why this does not prevent you from determining to study here?</li>
-</ul>
+<section id="load-necessary-libraries" class="level1">
+<h1>Load necessary libraries</h1>
+<p>install.packages(“tm”) library(tm) library(RColorBrewer)</p>
 </section>
-<section id="financial-factor" class="level3">
-<h3 class="anchored" data-anchor-id="financial-factor">Financial Factor</h3>
-<ul>
-<li>What are the financial aspect(transportation, rental issues, tuition fee and exchange rate) in your decision to pursue a master’s degree in the UK versus Asia?</li>
-<li>Have you compared the tuition fees and living expenses between the UK and - Asian countries? What are your findings?</li>
-<li>Are scholarships or financial aid opportunities influencing your choice of location for postgraduate studies?</li>
-<li>Does the potential return (successful rate of gaining the degree, job opportunity after graduation and whether the future salary can offset the cost of pursuing this degree)on investment from a UK master’s degree justify the higher costs for you? Why or why not?</li>
-</ul>
+<section id="load-transcripts-replace-with-actual-file-paths" class="level1">
+<h1>Load transcripts (replace with actual file paths)</h1>
+<p>transcript1 &lt;- readLines(“Participant1.txt”) transcript2 &lt;- readLines(“Participant2.txt”)</p>
 </section>
-<section id="cultural-and-social-factor" class="level3">
-<h3 class="anchored" data-anchor-id="cultural-and-social-factor">Cultural and Social Factor</h3>
-<ul>
-<li>Are cultural or social factors in either the UK or Asia pushing you away from studying there? (if students confess some issues in Asia, you might ask whether it is the study pressure)</li>
-<li>Have you experienced any racism in the UK?</li>
-<li>(If so) Will this influence your final decsion to stay or go to Asia, why?</li>
-<li>Have you gained a sense of integration in the UK? – (If so) does this affect your decision to stay? –(if not) does integration influence your decision to go back to Asia?</li>
-<li>Are global events (e.g., political climate, pandemics) acting as push or pull factors in your decision? Why?</li>
-</ul>
+<section id="combine-the-two-transcripts" class="level1">
+<h1>Combine the two transcripts</h1>
+<p>combined_transcripts &lt;- c(transcript1, transcript2)</p>
+</section>
+<section id="preprocess-the-text-data" class="level1">
+<h1>Preprocess the text data</h1>
+<p>corpus &lt;- Corpus(VectorSource(combined_transcripts)) corpus_clean &lt;- tm_map(corpus, content_transformer(tolower)) corpus_clean &lt;- tm_map(corpus_clean, removePunctuation) corpus_clean &lt;- tm_map(corpus_clean, removeNumbers) corpus_clean &lt;- tm_map(corpus_clean, removeWords, stopwords(“english”))</p>
+</section>
+<section id="create-a-document-term-matrix" class="level1">
+<h1>Create a document-term matrix</h1>
+<p>dtm &lt;- DocumentTermMatrix(corpus_clean)</p>
+</section>
+<section id="convert-to-a-data-frame-and-sort-by-frequency" class="level1">
+<h1>Convert to a data frame and sort by frequency</h1>
+<p>term_freq &lt;- as.data.frame(as.matrix(dtm)) freq &lt;- colSums(term_freq) freq_sorted &lt;- sort(freq, decreasing = TRUE)</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
